@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>custom css</title>
+    <style>
+        :root{
+            --primary-color:green;
+            --yello-color: yellow;
+        }
+        #box-1{
+            background-color: var(--primary-color);
+        }
+        #box-2{
+            color: var(--primary-color);
+        }
+        #box-3{
+            border: 2px solid var(--yello-color);
+        }
+        #box-4{
+            border-bottom: 2px solid var(--yello-color);
+        }
+        #box-5{
+            background-color: var(--primary-color);
+            width: calc(100% - 50%);
+            align-items: center;
+            margin: auto;
+        }
+    </style>
+</head>
+<body>
+    <h1 class="box" id="box-1">hello bangladesh</h1>
+    <h1 class="box" id="box-2">hello bangladesh</h1>
+    <h1 class="box" id="box-3">hello bangladesh</h1>
+    <h1 class="box" id="box-4">hello bangladesh</h1>
+    <h1 class="box" id="box-5">hello bangladesh</h1>
+</body>
+</html>
